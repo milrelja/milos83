@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	scroll-behavior:smooth;
+	text-decoration:none;
+	list-style-type:none;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	padding-bottom:70px;
+	animation: animacija-01 0.9s;
+}
+@keyframes animacija-01{
+	from{
+		opacity:0;
+		transform:rotateX(-10deg);
+	}
+	to{
+		opacity:1;
+		transform:rotateX(0)
+	}
+}
+.position-relative{
+	position:relative;
+}
+.d-flex{
+	display:flex;
+}
+.text-align{
+	text-align:center;
+	margin: 10px auto;
+}
+/*Pocetak Regiona Header*/
+header{
+	padding-top:25px;
+}
+.ozbiljnost {
+	justify-content: center;
+	left: -50px;
+}
+.centar{
+	margin:0px auto;
+	width:80%;
+}
+.float-left{
+	float:left;
+}
+.header-logo{
+	font-size:40px;
+}
+.header-logo a:visited{
+	color:#FF0000;
+}
+nav{
+	float:right;
+}
+nav ul li{
+	margin:60px;
+	display:inline;
+}
+nav ul li a{
+	color:#000;
+	font-size:25px;
+}
+.cleaner{
+	clear:both;
+}
+nav ul li a:hover{
+	border-bottom:3px solid #3399FF;
+	transition-duration: 0.2s;
+}
+.header-logo i:hover{
+	color:#FF0000;
+	transition-duration: 0.4s;
+	cursor:pointer;
+}
+/*Kraj regiona Header*/
+/*Pocetak Regiona Main*/
+#background-image{
+	background-image:url("dnasrce.jpg");
+	margin-bottom:100px;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100%;
+	background-attachment: fixed;
+}
+#text{
+	padding:200px;
+	width:26%;
+	animation-name:animacija;
+	animation-duration:4s;
+}
+@keyframes animacija {
+  0%   { left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  100% { left:0px; top:0px;}
+}
+#text h1,p{
+	padding:10px;
+	color:#fff
+}
+#text h1{
+	font-size:22px;
+	font-weight:800;
+}
+mark{
+	font-size:15px;
+	padding:2px;
+}
+.border-radius{
+	border-radius:5%;
+}
+.bg-color{
+	background-color:#3399FF;
+}
+.vase-zdravlje{
+	background-color:#3399FF;
+	display:inline-block;
+	padding:6px;
+	left:200px;
+}
+
+#okvir{
+	background-color:rgba(218, 232, 216,0.6);
+	width:60%;
+	top:60px;
+}
+#block01{
+	padding:60px;
+}
+.text01 p{
+	color:#000;
+	
+}
+.text01 h3:hover i:hover{
+	color:#fff;
+	cursor:pointer;
+	transition-duration: 0.5s;	
+	
+}
+
+.kolona{
+	width:25%;
+	margin-right:1%;
+}
+
+.box-shadow{
+	box-shadow: 5px 10px #e6e4dc;
+}
+
+/*Pocetak Regiona Footer*/
+#footer{
+	width:100%;
+	background-color:#989e98;
+	position:absolute;
+    bottom:0px;
+}
+#footer ul li i{
+	padding:10px;
+	font-size:25px;
+	color:#3399FF;
+}
+#footer i:hover{
+	color:#fff;
+}
+#footer ul li{
+	padding:10px;
+}
+#copyright{
+	right:90px;
+}
+#copyright p{
+	padding:20px 30px 20px 800px;
+}
+/*Stranica programi*/
+.kolona1{
+	border:1px solid #000000;
+	background-color: #3399FF;
+	border-radius:5px;
+	margin:0px 2% 40px 0;
+	zoom:90%;
+}
+.kolona1:hover,#slike-nastim figure:hover{
+	transform:scale(1.05);
+	transition:1s;
+	cursor:pointer;
+}
+.kolona1 h2{
+	margin-top:40px;
+}
+.kolona1 h3{
+	font-size:30px;
+	padding:20px 0;
+}
+.stara-cena{
+	text-decoration: line-through;
+	color:#4FE356;
+	font-size:20px;
+	right:15px;
+}
+.usteda{
+	color:#dc143c;
+	font-size:22px;
+	margin-bottom:20px;
+}
+#usluge{
+	margin:40px 0 40px;
+	left:12px;
+}
+#usluge a{
+	border:1px solid #EA1010;
+	padding:10px 30px;
+	color:#dc143c;
+}
+#usluge a:hover{
+	background-color:rgba(220, 20, 60,0.7);
+	color:#fff;
+	transition:0.7s;
+}
+#usluge p{
+	margin-top:20px;
+	color:#000;
+}
+.usluge-lista ul li{
+	border-top:1px solid #000;
+	padding:15px 30px 15px 30px;
+}
+.usluge-lista ul li h4{
+	font-size:20px;
+}
+.usluge-lista ul li h4 i{
+	margin-right:5px;
+}
+#p-top{
+	top:20px;
+	padding:15px;
+}
+.white-block h1{
+	top:30px;
+}
+.white-block{
+	width:65%;
+	background-color:#fff;
+	margin:50px auto;
+}
+/*Pocetak Stranice Nas Tim*/
+.nastim{
+	background-color:#fff;
+	margin:40px 0px 120px;
+	padding:40px;
+}
+.box-shadow-2{
+	box-shadow: 1px 1px 10px rgb(0 0 0 / 30%);
+}
+.justify-space{
+	justify-content: space-evenly;
+}
+#slike-nastim{
+	flex-wrap: wrap;
+}
+#slike-nastim >article:nth-child(-n+3) {
+	margin-bottom:30px;
+}
+.margin-boootom{
+	margin-bottom:40px;
+}
+article figcaption{
+	text-align:center;
+	font-size:20px;
+	padding-bottom:5px;
+}
+#slike-nastitext-align
+	}
+	#justify{
+		text-align:justify;
+	}
+	#autor h1{
+		font-size:25px;
+	}
+	#autor h2{
+		font-size:20px;
+	}
+	#autor p{
+		position:relative;
+		left:-10px;
+	}
+	#autor img{
+		padding:30px 30px 0px 30px;
+	}
+	#autor-sirina{
+		width:40%;
+		transform:scale(1.3);
+		padding:20px 0px;
+		top:-200px;
+	}
+	#kraj{
+		height:400px;
+		width:60%;
+		border-radius:5px;
+		margin:0px auto;
+		top:225px;
+	}
+	.border{
+		border:1px solid #a1f09c;
+	}
+	#podaci{
+		margin-top:30px;
+		padding-bottom:40px;
+	}
+/*KONTAKT*/
+.white-block{
+	width:65%;
+	background-color:#fff;
+	margin:50px auto;
+}
+.white-block h1{
+	top:30px;
+}
+/*FORMA*/
+input[type="text"],input[type="email"],textarea,input[type="submit"]{
+	width:300px;
+	outline:none;
+	background:transparent;
+	border:none;
+	border-bottom:1.5px solid gray;
+	color:#fff;
+	font-size:18px;
+	margin-bottom:16px;	
+}
+form .submit{
+	background-color:#e6e4dc;
+	border-color:transparent;
+	color:#000;
+	font-size:15px;
+	letter-spacing:2px;
+	height:50px;
+	margin-top:20px;
+}
+form .submit:hover,.footer-lista i:hover{
+	background-color:#fff;
+	transition:0.6s;
+	cursor:pointer;
+}
+#txt-area{
+	height:100px;
+}
+.quote{
+	margin:0px auto;
+	background-color:#fff;
+	padding:10px 15px;
+	border-radius:65%;
+	font-size:30px;
+}
+#wrap{
+	width:1000px;
+	left:45px;
+	margin-top:120px;
+	transform: scale(1.2);
+}
+.blok{
+	width:450px;
+	background-color:#3399FF;
+	margin:0px 20px 120px 0px;
+	padding-bottom:50px;
+}
+.blok h5{
+	padding:20px 0;
+}
+.blok h6{
+	margin-left:35px;
+	padding-bottom:10px;
+	font-size:18px;
+}
+.blok ul{
+	margin-left:50px;
+	padding-bottom:30px;
+}
+.blok ul li{
+	padding-left: 30px;
+  background-position: 0 0;
+  background-size: 23px 23px;
+  background-repeat: no-repeat;
+  margin-bottom:10px;
+}
+.blok i{
+	margin:0px 10px;
+	color:#000000;
+}
+#justify{
+	color:#000000;
+}
+	
