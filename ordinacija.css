@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	scroll-behavior:smooth;
+	text-decoration:none;
+	list-style-type:none;
+}
+.header-logo{
+	font-size:40px;
+}
+.header-logo a:visited{
+	color:#FF0000;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	padding-bottom:80px;
+	animation: animacija-02 0.9s;
+}
+nav{
+	float:center;
+}
+nav ul li{
+	margin:60px;
+	display:inline;
+}
+nav ul li a{
+	color:#000;
+	font-size:30px;
+}
+.cleaner{
+	clear:both;
+}
+nav ul li a:hover{
+	border-bottom:3px solid #3399FF;
+	transition-duration: 0.2s;
+}
+#prvastrana{
+    background-image: url('dnasrce.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Dodato kako bi se sprečilo da se elementi izvuku iz okvira */
+	font-size: 40px;
+}
+.nastim{
+	background-color:#fff;
+	margin:40px 0px 120px;
+	padding:40px;
+}
+.box-shadow-2{
+	box-shadow: 1px 1px 10px rgb(0 0 0 / 30%);
+}
+.justify-space{
+	justify-content: space-evenly;
+}
+#naslov h1{
+	float:left;
+	
+	}
+
+#doktori {
+    height: 700px;
+    box-shadow: 0px -10px 10px -10px rgba(0, 0, 0, 0.9);
+    
+}
+#doktori h1 {
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	margin: 0px 820px;
+}
+.nastim1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.nastimtim {
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    padding: 30px;
+   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+
+}
+.nastimtim:hover {
+    transform: translateY(-5px);
+}
+.nastimtim img {
+    width: 150px;
+    height: 150px; 
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(1, 1, 1, 0.6);
+	background-size: contain;
+
+background-repeat: repeat-x;
+}
+.nastimtim:hover img {
+    transform: scale(1.1);
+}
+.drdr h2 {
+    font-size: 25px;
+	position:relative;
+	padding: 30px;
+   
+}
+
+.drdr p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #555;
+	
+}	
+#footer {
+  text-align: left;
+  padding: 30px;
+  background-color: #abbaba;
+  color: #000;
+}
+#footer ul li i{
+	padding:10px;
+	font-size:25px;
+	color:#3399FF;
+	display:inline;
+	
+}
+#footer i:hover{
+	color:#fff;
+}
+#footer ul li{
+	padding:70px 30px;
+	position: right
+	margin: 30px;
+	display:inline;
+}
+#copyright{
+	right:90px;
+}
+#copyright p{
+	
+	text-align: right;
+}
+.foot ul li{
+	margin: 30px;
+}
+.okvir-menu1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+#contact {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+#basic-info {
+    flex: 1;
+    max-width: 400px;
+    height: 300px;
+    padding: 20px;
+    background-color: #66CCFF;
+    border-radius: 10px;
+    margin-top: 20px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+#basic-info h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.promena{
+    color:#f3c8a8;
+    font-size: 20px;
+    font-weight: 800;
+}
+form {
+    flex: 1;
+    max-width: 600px;
+    margin-top: 20px; 
+    background-color: #66CCFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+.form-group label{
+    font-size: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 500px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #66CCFF;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+select{
+width: 526px;
+padding: 12px;
+font-size: 16px;
+border-radius: 10px;
+border: 1px solid #66CCFF;
+margin-bottom: 15px;
+transition: border-color 0.3s ease;
+color: #666;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+input[type="submit"] {
+    width: 40%;
+    height: 60px;
+    padding: 16px 24px;
+    font-size: 18px;
+    background-color: #66CCFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.kolona1{
+	border:1px solid #000000;
+	background-color: #3399FF;
+	border-radius:5px;
+	margin:0px 2% 40px 0;
+	zoom:90%;
+}
+.kolona1:hover,#slike-nastim figure:hover{
+	transform:scale(1.05);
+	transition:1s;
+	cursor:pointer;
+}
+.kolona1 h2{
+	margin-top:40px;
+}
+.kolona1 h3{
+	font-size:30px;
+	padding:20px 0;
+}
+.stara-cena{
+	text-decoration: line-through;
+	color:#4FE356;
+	font-size:20px;
+	right:15px;
+}
+.usteda{
+	color:#dc143c;
+	font-size:22px;
+	margin-bottom:20px;
+}
+
+#p-top{
+	top:20px;
+	padding:15px;
+}
+.white-block h1{
+	top:30px;
+}
+.white-block{
+	width:35%;
+	background-color:#fff;
+	margin:50px auto;
+}
+.position-relative{
+	position:relative;
+}
+.text-align{
+	text-align:center;
+	margin: 10px auto;
+}
+
+#kraj{
+		height:400px;
+		width:90%;
+		border-radius:5px;
+		margin:0px auto;
+		top:225px;
+	}
+
+	#autor h1{
+		font-size:25px;
+	}
+	#autor h2{
+		font-size:20px;
+	}
+	#autor p{
+		position:relative;
+		left:-10px;
+	}
+	#autor img{
+		padding:30px 30px 0px 30px;
+	}
+	#autor-sirina{
+		width:50%;
+		transform:scale(1.3);
+		padding:20px 0px;
+		top:-200px;
+	}
+
+	#podaci{
+		margin-top:30px;
+		padding-bottom:40px;
+	}
+#podaci p{
+		background-position: center,
+	}
