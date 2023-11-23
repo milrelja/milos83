@@ -285,6 +285,7 @@ input[type="submit"] {
 	width:35%;
 	background-color:#fff;
 	margin:50px auto;
+        box-shadow: 60px -16px teal;
 }
 .position-relative{
 	position:relative;
