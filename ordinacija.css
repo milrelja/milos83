@@ -18,7 +18,7 @@ body{
 	animation: animacija-02 0.9s;
 }
 nav{
-	float:center;
+	text-align: center
 }
 nav ul li{
 	margin:60px;
@@ -74,7 +74,8 @@ nav ul li a:hover{
     font-weight: 900;
     padding-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-	margin: 0px 820px;
+    margin: 0px 640px;
+   text-align: center;
 }
 .nastim1{
     width: 100%;
@@ -125,16 +126,10 @@ background-repeat: repeat-x;
 #footer {
   text-align: left;
   padding: 30px;
-  background-color: #abbaba;
+  background-color: #FFFFCC;
   color: #000;
 }
-#footer ul li i{
-	padding:10px;
-	font-size:25px;
-	color:#3399FF;
-	display:inline;
-	
-}
+
 #footer i:hover{
 	color:#fff;
 }
@@ -143,6 +138,7 @@ background-repeat: repeat-x;
 	position: right
 	margin: 30px;
 	display:inline;
+	font-size:25px;
 }
 #copyright{
 	right:90px;
@@ -243,22 +239,26 @@ input[type="submit"] {
 }
 
 
-.kolona1{
+.cene{
 	border:1px solid #000000;
 	background-color: #3399FF;
 	border-radius:5px;
 	margin:0px 2% 40px 0;
 	zoom:90%;
+	box-sizing: content-box;
+        width: 100%;
+        border: solid #5B6DCD 10px;
+        padding: 5px;
 }
-.kolona1:hover,#slike-nastim figure:hover{
+.cene:hover,#slike-nastim figure:hover{
 	transform:scale(1.05);
 	transition:1s;
 	cursor:pointer;
 }
-.kolona1 h2{
+.cene h2{
 	margin-top:40px;
 }
-.kolona1 h3{
+.cene h3{
 	font-size:30px;
 	padding:20px 0;
 }
@@ -280,6 +280,7 @@ input[type="submit"] {
 }
 .autor1 h1{
 	top:30px;
+	
 }
 .autor1{
 	width:35%;
@@ -305,13 +306,16 @@ input[type="submit"] {
 
 	#autor h1{
 		font-size:25px;
+		text-align: center
 	}
 	#autor h2{
 		font-size:20px;
+		text-align: center
 	}
 	#autor p{
 		position:relative;
 		left:-10px;
+		text-align: center
 	}
 	#autor img{
 		padding:30px 30px 0px 30px;
@@ -330,3 +334,17 @@ input[type="submit"] {
 #podaci p{
 		background-position: center,
 	}
+.svi{
+ justify-content: center;
+	left: 200px;
+	
+	}
+
+.okvir{
+	width:65%;
+	background-color:#fff;
+	margin:50px auto;
+}
+.okvir h1{
+	top:30px;
+}
