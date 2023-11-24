@@ -45,7 +45,7 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden; /* Dodato kako bi se sprečilo da se elementi izvuku iz okvira */
+    overflow: hidden; 
 	font-size: 40px;
 }
 .nastim{
@@ -297,7 +297,7 @@ input[type="submit"] {
 }
 
 #kraj{
-		height:400px;
+		height:50px;
 		width:90%;
 		border-radius:5px;
 		margin:0px auto;
