@@ -358,3 +358,15 @@ block-black{
 	margin:100px auto;
 	zoom:90%;
 	}
+.kolona1:hover,#slike-nastim figure:hover{
+	transform:scale(1.05);
+	transition:1s;
+	cursor:pointer;
+}
+.kolona1 h2{
+	margin-top:40px;
+}
+.kolona1 h3{
+	font-size:30px;
+	padding:20px 0;
+}
