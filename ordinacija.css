@@ -14,7 +14,6 @@
 }
 body{
 	font-family: 'Poppins', sans-serif;
-	padding-bottom:5px;
 	animation: animacija-02 0.9s;
 }
 nav{
@@ -126,7 +125,7 @@ background-repeat: repeat-x;
 #footer {
   text-align: left;
   padding: 30px;
-  background-color: #FFFFCC;
+  background-color: #3399FF;
   color: #000;
 }
 
