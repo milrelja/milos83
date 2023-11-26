@@ -351,3 +351,10 @@ input[type="submit"] {
 block-black{
 		box-shadow: 3px 3px red, -1em 0 .4em olive;
 	}
+.kolona1{
+	border:1px solid #000000;
+	background-color: #3399FF;
+	border-radius:5px;
+	margin:100px auto;
+	zoom:90%;
+	}
