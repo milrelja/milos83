@@ -348,3 +348,6 @@ input[type="submit"] {
 .okvir h1{
 	top:30px;
 }
+block-black{
+		box-shadow: 3px 3px red, -1em 0 .4em olive;
+	}
